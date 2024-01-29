@@ -22,7 +22,7 @@ export async function GET({ setHeaders }) {
   });
 
   const posts = data.posts;
-  const site = "http://localhost:3000";
+  const site = "https://www.leafyoils.com/";
   const pages = ["wellness", "skincare", "haircare", "nutrition"];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8" ?>
@@ -59,7 +59,7 @@ export async function GET({ setHeaders }) {
                     <lastmod>${
                       new Date(post.lastUpdated).toISOString().split("T")[0]
                     }</lastmod>
-                    <priority>0.3</priority>
+                    <priority>0.7</priority>
                 </url>
                 `
           )

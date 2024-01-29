@@ -7,16 +7,11 @@ export const load = async () => {
   });
 
   const query = gql`
-    query getPosts {
-      posts(
-        where: { category: Nutrition }
-        orderBy: lastUpdated_DESC
-        first: 10000
-      ) {
+    query GetAllPosts {
+      posts(orderBy: title_ASC, first: 10000) {
         title
         slug
         lastUpdated
-        category
       }
     }
   `;

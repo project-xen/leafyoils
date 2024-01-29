@@ -6,23 +6,24 @@
   const navigation = [
     { href: "/", title: "Home" },
     { href: "/category/wellness", title: "Wellness" },
-    { href: "/category/skincare", title: "Skincare" },
-    { href: "/category/haircare", title: "Haircare" },
+    { href: "/category/skincare", title: "Skin care" },
+    { href: "/category/haircare", title: "Hair care" },
     { href: "/category/nutrition", title: "Nutrition" },
+    { href: "/category/organics", title: "Organics" },
   ];
 </script>
 
 <div class="flex">
   <input type="checkbox" id="drawer-toggle" class="relative sr-only peer" />
 
-  <button class="inline-block text-3xl text-green-800">
+  <button class="inline-block text-3xl text-green-800 hover:text-green-500">
     <label for="drawer-toggle">
       <Icon icon="gg:menu-right" />
     </label>
   </button>
 
   <div
-    class="p-12 fixed top-0 left-0 z-20 w-full h-full transition-all duration-400
+    class="p-12 fixed top-0 left-0 z-20 w-full h-full transition-all duration-500
     transform -translate-y-full peer-checked:translate-y-0 bg-green-800 text-white"
   >
     <div class="text-5xl text-right w-full">

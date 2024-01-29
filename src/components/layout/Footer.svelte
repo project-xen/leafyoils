@@ -3,9 +3,10 @@
 
   const navigation = [
     { href: "/category/wellness", title: "Wellness" },
-    { href: "/category/skincare", title: "Skincare" },
-    { href: "/category/haircare", title: "Haircare" },
+    { href: "/category/skincare", title: "Skin care" },
+    { href: "/category/haircare", title: "Hair care" },
     { href: "/category/nutrition", title: "Nutrition" },
+    { href: "/category/organics", title: "Organics" },
   ];
 
   let year = new Date().getFullYear();
@@ -24,7 +25,7 @@
     <div class="grid grid-cols-3 gap-6">
       <div>
         <h3 class="mb-6 text-sm font-semibold uppercase text-green-200">
-          Navigation
+          Quick Links
         </h3>
         <FooterLinkGroup ulClass="text-gray-50 tracking-wide">
           {#each navigation as link}
@@ -64,6 +65,6 @@
   <hr class="my-6 border-green-400 sm:mx-auto lg:my-8" />
 
   <span class="text-sm text-green-100 tracking-wide"
-    >&copy; {year} Leafy Oils™ All Rights Reserved.
+    >&copy; {year} Leafy Oils™ - All Rights Reserved.
   </span>
 </section>

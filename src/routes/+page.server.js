@@ -8,10 +8,11 @@ export const load = async () => {
 
   const query = gql`
     query GetAllPosts {
-      posts(orderBy: lastUpdated_DESC, first: 12) {
+      posts(orderBy: lastUpdated_DESC, first: 1000) {
         title
         slug
         lastUpdated
+        featured
       }
     }
   `;

@@ -8,7 +8,11 @@ export const load = async () => {
 
   const query = gql`
     query getPosts {
-      posts(where: { category: Haircare }, orderBy: lastUpdated_DESC) {
+      posts(
+        where: { category: Haircare }
+        orderBy: lastUpdated_DESC
+        first: 10000
+      ) {
         title
         slug
         lastUpdated

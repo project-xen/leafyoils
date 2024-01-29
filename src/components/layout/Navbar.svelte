@@ -4,9 +4,10 @@
 
   const navigation = [
     { href: "/category/wellness", title: "Wellness" },
-    { href: "/category/skincare", title: "Skincare" },
-    { href: "/category/haircare", title: "Haircare" },
+    { href: "/category/skincare", title: "Skin care" },
+    { href: "/category/haircare", title: "Hair care" },
     { href: "/category/nutrition", title: "Nutrition" },
+    { href: "/category/organics", title: "Organics" },
   ];
 </script>
 
@@ -21,7 +22,7 @@
       </div>
     </a>
 
-    <ul class="hidden space-x-6 lg:flex">
+    <ul class="hidden space-x-8 lg:flex">
       {#each navigation as link}
         <li
           class="font-semibold text-green-800 hover:text-green-500 hover:underline underline-offset-8 tracking-widest uppercase"
@@ -32,16 +33,25 @@
     </ul>
 
     <div class="hidden lg:flex items-center space-x-2 text-2xl">
-      <span class="hover:text-green-500">
-        <Icon icon="ic:baseline-search" />
-      </span>
-      <span class="hover:text-green-500">
+      <a href="/search">
+        <span class="hover:text-green-500">
+          <Icon icon="ic:baseline-search" />
+        </span>
+      </a>
+      <span class="hover:text-green-500 cursor-pointer">
         <Icon icon="humbleicons:rss" />
       </span>
     </div>
 
-    <div class="block lg:hidden">
-      <MobileMenu />
+    <div class="flex items-center space-x-2.5 lg:hidden">
+      <a href="/search">
+        <span class="text-green-800 hover:text-green-500 text-3xl">
+          <Icon icon="ic:baseline-search" />
+        </span>
+      </a>
+      <div>
+        <MobileMenu />
+      </div>
     </div>
   </div>
 </nav>

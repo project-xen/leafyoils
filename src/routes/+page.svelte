@@ -1,21 +1,25 @@
 <script>
   // @ts-nocheck
 
-  import Blogposts from "../components/Blogposts.svelte";
+  import FeaturedPosts from "../components/FeaturedPosts.svelte";
+  import RecentPosts from "../components/RecentPosts.svelte";
   import Head from "../components/layout/Head.svelte";
 
   export let data;
 
   const posts = data.props.posts.posts;
+
+  const featuredPosts = posts.filter((post) => post.featured === true);
+  const recentPosts = posts.filter((post) => post.featured === false);
 </script>
 
 <div class="p-6 xl:px-0 w-full lg:max-w-6xl mx-auto md:px-12">
   <section
-    class="lg:flex justify-between gap-6 xl:gap-12 mt-12 lg:mt-24 lg:h-[90vh]"
+    class="lg:flex justify-between gap-6 xl:gap-12 mt-12 lg:mt-24 lg:h-[88vh]"
   >
     <div class="lg:w-1/3">
       <h1
-        class="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-green-900 to-green-400
+        class="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-green-900 to-green-400
       inline-block text-transparent bg-clip-text"
       >
         Exploring the Magic and Vitality of Natural Oils
@@ -44,8 +48,11 @@
   </section>
 
   <section class="mt-20 lg:mt-4 mb-24">
-    <h2 class="text-3xl font-bold text-green-600 mb-8">LATEST POSTS</h2>
-    <Blogposts {posts} />
+    <FeaturedPosts {featuredPosts} />
+  </section>
+
+  <section class="mt-20 lg:mt-4 mb-24">
+    <RecentPosts {recentPosts} />
   </section>
 </div>
 

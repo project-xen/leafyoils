@@ -2,10 +2,18 @@
   // @ts-nocheck
   import Icon from "@iconify/svelte";
 
-  export let posts;
+  export let featuredPosts;
+
+  $: posts = featuredPosts.slice(0, 9);
 </script>
 
 <div>
+  <p
+    class="text-3xl font-bold text-green-700 w-full border-b border-gray-500 pb-6 mb-8 tracking-wider"
+  >
+    FEATURED POSTS
+  </p>
+
   {#if !posts.length}
     <h2 class="my-8 text-3xl text-gray-600 font-bold tracking-tight">
       NO POSTS FOUND!

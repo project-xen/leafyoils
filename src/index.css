@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 article {
-  @apply text-lg leading-8 lg:mx-20 xl:mx-28 py-10;
+  @apply text-[1.165rem] leading-8 lg:mx-20 xl:mx-28 py-10;
 }
 
 /* ===== HTML TAGS ===== */
@@ -17,11 +17,11 @@ article > h1 {
 }
 
 article > h2 {
-  @apply text-[1.65rem] font-bold mt-10 -mb-1 text-green-800;
+  @apply text-[1.65rem] font-bold mt-8 -mb-1 text-green-800;
 }
 
 article > h3 {
-  @apply text-[1.45rem] font-medium mt-10 -mb-1;
+  @apply text-[1.45rem] font-medium mt-6 -mb-1;
 }
 
 article > h4,
@@ -56,7 +56,7 @@ article > p > code {
   @apply bg-gray-100 border p-2 m-1 rounded-sm;
 }
 
-article > ul > li > div,
-article > ol > li > div {
-  @apply my-4;
+article > ul > li,
+article > ol > li {
+  @apply my-4 mx-8 list-disc text-lg;
 }
