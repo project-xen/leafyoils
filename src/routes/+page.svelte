@@ -15,14 +15,14 @@
 
 <div class="p-6 xl:px-0 w-full lg:max-w-6xl mx-auto md:px-12">
   <section
-    class="lg:flex justify-between gap-6 xl:gap-12 mt-12 lg:mt-24 lg:h-[88vh]"
+    class="lg:flex justify-between gap-6 xl:gap-10 mt-8 lg:mt-24 lg:h-[88vh]"
   >
     <div class="lg:w-1/3">
       <h1
-        class="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-green-900 to-green-400
-      inline-block text-transparent bg-clip-text"
+        class="text-6xl font-bold bg-gradient-to-br from-green-900 to-green-400
+      inline-block text-transparent bg-clip-text lg:mt-6"
       >
-        Exploring the Magic and Vitality of Natural Oils
+        Get Connected <br /> To Nature's Goodness
       </h1>
     </div>
 
@@ -36,13 +36,12 @@
 
     <div class="lg:w-1/3 font-medium text-lg lg:text-xl">
       <p class=" bg-green-50 p-4 text-black mb-6 rounded-md">
-        Natural oils are plant-derived liquids extracted from seeds, nuts, or
-        fruits. Rich in nutrients, these oils are renowned for their many health
-        benefits.
+        Gain insights into properties and value of different natural oils, herbs
+        and other organic products
       </p>
       <p class=" bg-green-800 p-4 text-white rounded-md">
-        Discover the transformative qualities of natural oils and a holistic
-        approach to self-care with Leafy Oils
+        And discover the transformative qualities of natural plants, and a
+        holistic approach to self-care with Leafy Oils
       </p>
     </div>
   </section>

@@ -14,24 +14,23 @@
     <div class="lg:w-3/4 text-lg">
       <p class="pb-4">
         At Leafy Oils, we are committed to educating and guiding people on the
-        benefits of using organic and natural oils. Our mission is to be a
+        benefits of using organic oils and herbs. Our mission is to be a
         reliable source of information supported by research on how these oils
         can improve wellness, beauty, and lifestyle. We cover a diverse range of
-        oils from popular ones like argan and coconut to more exotic options
-        while emphasizing sustainability and eco-conscious sourcing.
+        oils and natural extracts while emphasizing sustainability and
+        eco-conscious sourcing.
       </p>
 
       <p class="pb-4">
         As a community centered around a shared passion for organic living,
-        Leafy Oils provides enriching content beyond just oil uses. We explore
-        holistic wellness, skincare, haircare, aromatherapy and more with a
+        Leafy Oils provides enriching content beyond just natural produce. We
+        explore holistic wellness, skincare, aromatherapy and more with a
         commitment to education so you can trust our guidance. What sets us
         apart is how we prioritize authenticity, knowledge, and passion in
-        cultivating a supportive space. You are invited to join discussions,
-        share experiences, and connect over our common interests. Ultimately, we
-        strive to harmoniously bring people and nature together through the
-        goodness of organic oils for the greater benefit of both personal and
-        communal wellbeing.
+        cultivating a supportive space. You are welcome share experiences, and
+        connect with us over our common interests. Ultimately, we strive to
+        harmoniously bring people and nature together through the goodness of
+        organic oils and herbs.
       </p>
 
       <p>With love, <br /> The Leafy Oils Team</p>

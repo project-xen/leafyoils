@@ -2,11 +2,10 @@
   import { FooterLinkGroup, FooterLink } from "flowbite-svelte";
 
   const navigation = [
-    { href: "/category/wellness", title: "Wellness" },
-    { href: "/category/skincare", title: "Skin care" },
-    { href: "/category/haircare", title: "Hair care" },
-    { href: "/category/nutrition", title: "Nutrition" },
+    { href: "/category/oils", title: "Oils" },
+    { href: "/category/herbs", title: "Herbs" },
     { href: "/category/organics", title: "Organics" },
+    { href: "/category/wellness", title: "Wellness" },
   ];
 
   let year = new Date().getFullYear();
@@ -42,9 +41,7 @@
         </h3>
         <FooterLinkGroup ulClass="text-gray-50 tracking-wide">
           <FooterLink liClass="mb-4" href="/info/about">About</FooterLink>
-          <FooterLink liClass="mb-4" href="https://tally.so/r/wLpNel"
-            >Contact</FooterLink
-          >
+          <FooterLink liClass="mb-4" href="/info/contact">Contact</FooterLink>
         </FooterLinkGroup>
       </div>
       <div>

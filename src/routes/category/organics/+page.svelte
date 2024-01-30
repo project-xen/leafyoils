@@ -16,8 +16,8 @@
 
 <div>
   <img
-    src="/organics.jpg"
-    alt="natural greens"
+    src="/img-organics.avif"
+    alt="natural organics"
     class="w-full block h-60 object-cover relative -z-10"
   />
 </div>

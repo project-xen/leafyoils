@@ -5,11 +5,10 @@
 
   const navigation = [
     { href: "/", title: "Home" },
-    { href: "/category/wellness", title: "Wellness" },
-    { href: "/category/skincare", title: "Skin care" },
-    { href: "/category/haircare", title: "Hair care" },
-    { href: "/category/nutrition", title: "Nutrition" },
+    { href: "/category/oils", title: "Oils" },
+    { href: "/category/herbs", title: "Herbs" },
     { href: "/category/organics", title: "Organics" },
+    { href: "/category/wellness", title: "Wellness" },
   ];
 </script>
 

@@ -16,8 +16,8 @@
 
 <div>
   <img
-    src="/wellness.jpg"
-    alt="natural greens"
+    src="/img-wellness.avif"
+    alt="natural wellness"
     class="w-full block h-60 object-cover relative -z-10"
   />
 </div>

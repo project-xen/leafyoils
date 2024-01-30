@@ -9,7 +9,7 @@ export const load = async () => {
   const query = gql`
     query getPosts {
       posts(
-        where: { category: Skincare }
+        where: { category: Herbs }
         orderBy: lastUpdated_DESC
         first: 10000
       ) {

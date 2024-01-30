@@ -11,7 +11,7 @@
 
 <div>
   <img
-    src="/cover.jpg"
+    src="/img-cover.avif"
     alt="natural greens"
     class="w-full block h-60 object-cover relative -z-10"
   />

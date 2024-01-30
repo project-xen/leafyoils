@@ -16,8 +16,8 @@
 
 <div>
   <img
-    src="/nutrition.jpg"
-    alt="natural greens"
+    src="/img-herbs.avif"
+    alt="natural herbs"
     class="w-full block h-60 object-cover relative -z-10"
   />
 </div>
@@ -26,7 +26,7 @@
   <h2
     class="text-4xl lg:text-5xl pb-8 mb-10 font-bold text-center text-green-800 border-b border-gray-400 tracking-widest"
   >
-    NUTRITION
+    HERBS
   </h2>
 
   <div>
