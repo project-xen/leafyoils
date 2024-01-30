@@ -22,7 +22,7 @@ export async function GET({ setHeaders }) {
   });
 
   const posts = data.posts;
-  const site = "https://www.leafyoils.com/";
+  const site = "https://www.leafyoils.com";
   const pages = ["oils", "herbs", "organics", "wellness"];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8" ?>
